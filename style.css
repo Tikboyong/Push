@@ -38,8 +38,16 @@ body {
   color: var(--main-color);
   font-weight: 800;
   cursor: pointer;
-  transition: 0.3s ease-in-out
+  transition: 0.3s ease-in-out;
 }
+.logo{
+  font-size: 3.5rem;
+  color:var(--text-color)
+;  font-weight: 800;
+  cursor:pointer;
+  transition: 0.3s ease-in-out;
+}
+
 .logo:hover{
   transform: scale(1.1);
 }
@@ -59,11 +67,19 @@ span{
   font-weight: 500;
   transition: 0.3s ease-in-out;
   border-bottom: 3px solid transparent;
+  transform: translateX(100%);
+}
+.navbar.active {
+  transform: translateX(0);
 }
 .navbar a:hover{
   color: var(--main-color0);
   border-bottom: 3px solid var(--main-color);
 }
+.nav-link{
+  display: flex;
+}
+
 .gradient-btn{
   font-size: 1.8rem;
   padding: 1rem 2rem;
