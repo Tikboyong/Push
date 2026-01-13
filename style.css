@@ -67,6 +67,7 @@ span {
         var(--alt-main-color-gradient-start) 10%,
         var(--alt-main-color-gradient-end) 100%
     );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -250,7 +251,11 @@ section {
 }
 
 .about-content p {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    word-spacing: 1px;
+    font-weight: 500;
+    line-height: 1.8;
+    font-style: italic;
 }
 
 .about-content .btn {
